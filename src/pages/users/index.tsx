@@ -16,7 +16,7 @@ import {
 
 import { RiAddLine, RiPencilLine } from 'react-icons/ri'
 import { Header } from '../../components/Header'
-import { Siderbar } from '../../components/Siderbar'
+import { Sidebar } from '../../components/Sidebar'
 import { Pagination } from '../../components/Pagination'
 
 export default function UserList() {
@@ -25,7 +25,7 @@ export default function UserList() {
       <Header />
 
       <Flex w='100%' my='6' maxWidth={1480} mx='auto' px='6'>
-        <Siderbar />
+        <Sidebar />
 
         <Box flex='1' borderRadius={8} bg='gray.800' p='8'>
           <Flex mb='8' justify='space-between' alignContent='center'>
