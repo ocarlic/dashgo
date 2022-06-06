@@ -4,3 +4,8 @@ export type User = {
 	email: string
 	createdAt: string
 }
+
+export type getUsersResponse = {
+	totalCount: number
+	users: User[]
+}
